@@ -1,0 +1,10 @@
+conda create p venv python=3.8 -y 
+conda activate venv/
+
+code . -- to open vs code
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PrateekDwivedi2991/mlproject.git
+git push -u origin main
